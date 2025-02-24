@@ -16,33 +16,8 @@
           <%= f.password_field :password, id: "user_password", autocomplete: "current-password" %>
         </div>
 
-        <div class="field">
-          <%= f.label :"パスワード再入力" %><br />
-          <%= f.password_field :password, id: "user_password", autocomplete: "current-password" %>
-        </div>
-
-        <div class="field">
-          <%= f.label :"ユーザー名" %><br />
-          <%= f.text_field :user_name, id: "user_name", autocomplete: "user_name" %>
-        </div>
-
-        <div class="field">
-          <%= f.label :profile, "プロフィール" %><br />
-          <%= f.text_area :profile, id: "user_profile", rows: 2, cols: 50 %>
-        </div>
-
-        <div class="field">
-          <%= f.label :affiliation, "所属" %><br />
-          <%= f.text_area :affiliation, id: "user_affiliation", rows: 2, cols: 50 %>
-        </div>
-
-        <div class="field">
-          <%= f.label :position, "役職" %><br />
-          <%= f.text_area :position, id: "user_position", rows: 2, cols: 50 %>
-        </div>
-
         <div class="actions">
-          <%= f.submit "新規登録", class: :form__btn %>
+          <%= f.submit "ログイン", class: :form__btn %>
         </div>
       <% end %>
     </div>
